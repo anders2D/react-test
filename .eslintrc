@@ -1,0 +1,18 @@
+{
+    "extends": ["plugin:react/recommended"],
+    "rules": {
+        "quotes": "off",
+        "react/react-in-jsx-scope": "off",
+        "no-duplicate-imports": ["error", { "includeExports": true }]
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017,
+         "sourceType": "module"
+    },
+
+    "env": {
+        "browser": true,
+        "es6": true,
+         "jest": true
+    }
+}
